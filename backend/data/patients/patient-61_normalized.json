@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-61",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Edwards",
+    "given": [ "Kevin" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1951-10-29",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "54051 Monique Villages Apt. 680" ],
+    "city": "Ciudad de México",
+    "postalCode": "56113",
+    "country": "MX"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-MX",
+        "display": "es-MX"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

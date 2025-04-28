@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-99",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Wells",
+    "given": [ "Vincent" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1948-11-16",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "0420 Tiffany Fall Apt. 983" ],
+    "city": "London",
+    "postalCode": "79494",
+    "country": "GB"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "W",
+      "display": "Viudo"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-GB",
+        "display": "en-GB"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

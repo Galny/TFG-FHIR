@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-93",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Kennedy",
+    "given": [ "Krista" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1982-10-30",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "3104 Travis Parks Suite 420" ],
+    "city": "Toronto",
+    "postalCode": "30927",
+    "country": "CA"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-CA",
+        "display": "en-CA"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

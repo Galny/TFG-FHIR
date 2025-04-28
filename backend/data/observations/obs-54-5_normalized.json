@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-54-5",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "8867-4",
+      "display": "Frecuencia cardíaca"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-54"
+  },
+  "effectiveDateTime": "2017-04-29T01:20:53",
+  "valueQuantity": {
+    "value": 62.2,
+    "unit": "bpm"
+  }
+}

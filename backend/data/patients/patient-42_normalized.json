@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-42",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Smith",
+    "given": [ "Theresa" ]
+  } ],
+  "gender": "other",
+  "birthDate": "1953-01-15",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "45836 Wilkerson Causeway" ],
+    "city": "London",
+    "postalCode": "91838",
+    "country": "GB"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-GB",
+        "display": "en-GB"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

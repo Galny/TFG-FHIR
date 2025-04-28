@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-85",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Moses",
+    "given": [ "Kevin" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1952-08-16",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "953 Paul Roads Suite 184" ],
+    "city": "Sydney",
+    "postalCode": "08054",
+    "country": "AU"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-AU",
+        "display": "en-AU"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-65",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Yates",
+    "given": [ "Jessica" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1968-02-02",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "91490 Gregory Road" ],
+    "city": "Mumbai",
+    "postalCode": "39817",
+    "country": "IN"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "hi",
+        "display": "hi"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

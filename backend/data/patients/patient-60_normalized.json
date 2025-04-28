@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-60",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Simmons",
+    "given": [ "Jennifer" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1973-12-19",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "6946 Barron Extension" ],
+    "city": "São Paulo",
+    "postalCode": "20658",
+    "country": "BR"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "pt-BR",
+        "display": "pt-BR"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

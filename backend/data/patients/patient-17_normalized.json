@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-17",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Gallagher",
+    "given": [ "Kenneth" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1953-03-14",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "122 Richard Spur Apt. 309" ],
+    "city": "Buenos Aires",
+    "postalCode": "87980",
+    "country": "AR"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-AR",
+        "display": "es-AR"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-76",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Nielsen",
+    "given": [ "Sherry" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1984-12-27",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "889 Herring Cliffs" ],
+    "city": "Sydney",
+    "postalCode": "50871",
+    "country": "AU"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-AU",
+        "display": "en-AU"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

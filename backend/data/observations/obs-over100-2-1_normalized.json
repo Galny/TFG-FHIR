@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-over100-2-1",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "8310-5",
+      "display": "Temperatura corporal"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-over100-2"
+  },
+  "effectiveDateTime": "2025-01-11T15:46:19",
+  "valueQuantity": {
+    "value": 36.6,
+    "unit": "°C"
+  }
+}

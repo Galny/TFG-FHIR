@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-23",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Guzman",
+    "given": [ "Eric" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1992-12-07",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "92306 Flores Path Apt. 872" ],
+    "city": "São Paulo",
+    "postalCode": "21289",
+    "country": "BR"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "pt-BR",
+        "display": "pt-BR"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

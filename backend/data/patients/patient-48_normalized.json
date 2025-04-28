@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-48",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Howe",
+    "given": [ "Peter" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1934-11-13",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "17620 Collins Falls Suite 621" ],
+    "city": "Amsterdam",
+    "postalCode": "18441",
+    "country": "NL"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "nl-NL",
+        "display": "nl-NL"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-25",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Rodriguez",
+    "given": [ "Shannon" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1932-11-24",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "22315 Christopher Squares Suite 358" ],
+    "city": "Madrid",
+    "postalCode": "75553",
+    "country": "ES"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-ES",
+        "display": "es-ES"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

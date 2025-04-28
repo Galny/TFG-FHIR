@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-40",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Andrews",
+    "given": [ "Nicole" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1941-09-16",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "9265 Steven Islands Suite 084" ],
+    "city": "Rome",
+    "postalCode": "87571",
+    "country": "IT"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "it-IT",
+        "display": "it-IT"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-63",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Jones",
+    "given": [ "Theresa" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1957-03-24",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "1374 Carl Union" ],
+    "city": "Moscow",
+    "postalCode": "17636",
+    "country": "RU"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "ru",
+        "display": "ru"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-under10-7",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Mack",
+    "given": [ "Jody" ]
+  } ],
+  "gender": "male",
+  "birthDate": "2018-03-03",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "038 Timothy Via" ],
+    "city": "Wilkinsville",
+    "postalCode": "47636",
+    "country": "IT"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "U",
+      "display": "Desconocido"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-ES",
+        "display": "Español (España)"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

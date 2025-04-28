@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-30",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Ortiz",
+    "given": [ "Elizabeth" ]
+  } ],
+  "gender": "other",
+  "birthDate": "1975-05-02",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "257 Garcia Track Apt. 832" ],
+    "city": "Mumbai",
+    "postalCode": "69410",
+    "country": "IN"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "hi",
+        "display": "hi"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-11",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Murillo",
+    "given": [ "Katherine" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1941-05-06",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "84667 Elizabeth Forks Apt. 680" ],
+    "city": "Amsterdam",
+    "postalCode": "14088",
+    "country": "NL"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "nl-NL",
+        "display": "nl-NL"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

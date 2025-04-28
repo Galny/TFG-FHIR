@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-62",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Johnson",
+    "given": [ "Alfred" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1969-05-26",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "61944 David Wells Apt. 282" ],
+    "city": "São Paulo",
+    "postalCode": "01300",
+    "country": "BR"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "pt-BR",
+        "display": "pt-BR"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-33",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Smith",
+    "given": [ "Shelley" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1994-11-07",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "602 Torres Corner Apt. 630" ],
+    "city": "New York",
+    "postalCode": "45468",
+    "country": "US"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-US",
+        "display": "en-US"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-84",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Hall",
+    "given": [ "David" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1983-10-29",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "35003 Laura Fords" ],
+    "city": "London",
+    "postalCode": "07429",
+    "country": "GB"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-GB",
+        "display": "en-GB"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

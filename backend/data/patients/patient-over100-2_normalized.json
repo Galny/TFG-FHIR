@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-over100-2",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Butler",
+    "given": [ "Michael" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1915-04-17",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "7831 Stacy Alley" ],
+    "city": "New Benjamin",
+    "postalCode": "57230",
+    "country": "IT"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-ES",
+        "display": "Español (España)"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

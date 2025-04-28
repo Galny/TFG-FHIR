@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-18",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Scott",
+    "given": [ "Kelly" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1974-02-06",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "65183 Jonathon Centers Apt. 046" ],
+    "city": "Berlin",
+    "postalCode": "62549",
+    "country": "DE"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "de-DE",
+        "display": "de-DE"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

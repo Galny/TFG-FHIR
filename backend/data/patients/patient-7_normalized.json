@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-7",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Ward",
+    "given": [ "Angel" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1939-06-26",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "9795 Jennifer Circle" ],
+    "city": "London",
+    "postalCode": "71106",
+    "country": "GB"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-GB",
+        "display": "en-GB"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

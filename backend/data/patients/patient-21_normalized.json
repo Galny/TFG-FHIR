@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-21",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Davis",
+    "given": [ "David" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1997-12-02",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "36044 Mark Crescent" ],
+    "city": "Lisbon",
+    "postalCode": "47836",
+    "country": "PT"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "pt-PT",
+        "display": "pt-PT"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

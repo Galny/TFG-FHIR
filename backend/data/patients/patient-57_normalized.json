@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-57",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Powell",
+    "given": [ "Steven" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1965-10-16",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "1786 Jennifer Villages Apt. 888" ],
+    "city": "London",
+    "postalCode": "73405",
+    "country": "GB"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-GB",
+        "display": "en-GB"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

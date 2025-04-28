@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-46-6",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "29463-7",
+      "display": "Peso corporal"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-46"
+  },
+  "effectiveDateTime": "2025-03-14T12:45:32",
+  "valueQuantity": {
+    "value": 86.8,
+    "unit": "kg"
+  }
+}

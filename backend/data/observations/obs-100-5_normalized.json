@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-100-5",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "8302-2",
+      "display": "Altura corporal"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-100"
+  },
+  "effectiveDateTime": "2018-05-07T16:36:09",
+  "valueQuantity": {
+    "value": 148.8,
+    "unit": "cm"
+  }
+}

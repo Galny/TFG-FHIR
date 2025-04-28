@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-46",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Dennis",
+    "given": [ "Kerri" ]
+  } ],
+  "gender": "unknown",
+  "birthDate": "1935-12-28",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "6293 Lisa Mews Suite 969" ],
+    "city": "Brussels",
+    "postalCode": "72873",
+    "country": "BE"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "W",
+      "display": "Viudo"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "fr-BE",
+        "display": "fr-BE"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

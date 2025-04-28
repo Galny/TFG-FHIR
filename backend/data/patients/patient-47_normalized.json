@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-47",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Lambert",
+    "given": [ "Robert" ]
+  } ],
+  "gender": "female",
+  "birthDate": "2010-05-10",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "18621 Kelly Rest" ],
+    "city": "Brussels",
+    "postalCode": "86626",
+    "country": "BE"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "W",
+      "display": "Viudo"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "fr-BE",
+        "display": "fr-BE"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-79-0",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "29463-7",
+      "display": "Peso corporal"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-79"
+  },
+  "effectiveDateTime": "2017-06-17T21:14:20",
+  "valueQuantity": {
+    "value": 65.1,
+    "unit": "kg"
+  }
+}

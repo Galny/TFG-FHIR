@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-41",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Nelson",
+    "given": [ "John" ]
+  } ],
+  "gender": "male",
+  "birthDate": "2001-03-28",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "340 Jeremy Unions" ],
+    "city": "Paris",
+    "postalCode": "78380",
+    "country": "FR"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "fr-FR",
+        "display": "fr-FR"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

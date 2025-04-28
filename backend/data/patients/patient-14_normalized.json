@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-14",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Moss",
+    "given": [ "Scott" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1990-08-13",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "923 Katie Center Suite 274" ],
+    "city": "Moscow",
+    "postalCode": "75959",
+    "country": "RU"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "ru",
+        "display": "ru"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

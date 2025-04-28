@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-36",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Torres",
+    "given": [ "John" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1974-10-11",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "5171 Oscar Trail" ],
+    "city": "Madrid",
+    "postalCode": "30176",
+    "country": "ES"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-ES",
+        "display": "es-ES"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

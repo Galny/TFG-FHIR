@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-4",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Melton",
+    "given": [ "Christina" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1941-09-18",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "077 Nguyen Locks Apt. 052" ],
+    "city": "Buenos Aires",
+    "postalCode": "24449",
+    "country": "AR"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "W",
+      "display": "Viudo"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-AR",
+        "display": "es-AR"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-73",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Cuevas",
+    "given": [ "Jennifer" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1933-01-17",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "75120 Walker Fall" ],
+    "city": "Amsterdam",
+    "postalCode": "97007",
+    "country": "NL"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "nl-NL",
+        "display": "nl-NL"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

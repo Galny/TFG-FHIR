@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-66-1",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "85354-9",
+      "display": "Presión arterial"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-66"
+  },
+  "effectiveDateTime": "2016-07-23T03:10:08",
+  "valueQuantity": {
+    "value": 110.7,
+    "unit": "mmHg"
+  }
+}

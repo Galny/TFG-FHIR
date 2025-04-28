@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-67",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Perry",
+    "given": [ "Jacob" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1967-07-11",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "94776 Matthew Route" ],
+    "city": "New York",
+    "postalCode": "68410",
+    "country": "US"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "W",
+      "display": "Viudo"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-US",
+        "display": "en-US"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

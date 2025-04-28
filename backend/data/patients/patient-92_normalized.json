@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-92",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Barnes",
+    "given": [ "Craig" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1984-03-12",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "1796 Michael Fork" ],
+    "city": "Brussels",
+    "postalCode": "34943",
+    "country": "BE"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "fr-BE",
+        "display": "fr-BE"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

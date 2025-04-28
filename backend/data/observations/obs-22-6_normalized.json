@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-22-6",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "59408-5",
+      "display": "Saturación de oxígeno"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-22"
+  },
+  "effectiveDateTime": "2022-07-28T11:12:33",
+  "valueQuantity": {
+    "value": 99.6,
+    "unit": "%"
+  }
+}

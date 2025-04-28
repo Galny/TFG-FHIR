@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-50",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Mcclure",
+    "given": [ "Kimberly" ]
+  } ],
+  "gender": "female",
+  "birthDate": "2010-04-14",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "9070 Ballard Meadow" ],
+    "city": "Lisbon",
+    "postalCode": "25694",
+    "country": "PT"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "pt-PT",
+        "display": "pt-PT"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

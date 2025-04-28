@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-over100-6-0",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "59408-5",
+      "display": "Saturación de oxígeno"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-over100-6"
+  },
+  "effectiveDateTime": "2020-06-27T21:01:43",
+  "valueQuantity": {
+    "value": 93.9,
+    "unit": "%"
+  }
+}

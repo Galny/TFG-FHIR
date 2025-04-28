@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-16",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Stein",
+    "given": [ "Amy" ]
+  } ],
+  "gender": "male",
+  "birthDate": "2008-10-14",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "73044 James Expressway Apt. 470" ],
+    "city": "London",
+    "postalCode": "08916",
+    "country": "GB"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-GB",
+        "display": "en-GB"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

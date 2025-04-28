@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-49",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Costa",
+    "given": [ "Kelly" ]
+  } ],
+  "gender": "unknown",
+  "birthDate": "1980-10-29",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "169 Ashley Trafficway Suite 512" ],
+    "city": "New York",
+    "postalCode": "86532",
+    "country": "US"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "W",
+      "display": "Viudo"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-US",
+        "display": "en-US"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

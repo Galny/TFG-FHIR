@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-82",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Stephens",
+    "given": [ "Jason" ]
+  } ],
+  "gender": "other",
+  "birthDate": "1986-12-06",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "478 Jones Forks Suite 064" ],
+    "city": "Cape Town",
+    "postalCode": "24993",
+    "country": "ZA"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-ZA",
+        "display": "en-ZA"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

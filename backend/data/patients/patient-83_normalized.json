@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-83",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Banks",
+    "given": [ "Andre" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1959-02-15",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "87926 Tara Hollow Suite 017" ],
+    "city": "São Paulo",
+    "postalCode": "36442",
+    "country": "BR"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "pt-BR",
+        "display": "pt-BR"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

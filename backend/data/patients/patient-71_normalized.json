@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-71",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Hughes",
+    "given": [ "Alicia" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1976-08-16",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "83779 Hayes Club" ],
+    "city": "Mumbai",
+    "postalCode": "29040",
+    "country": "IN"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "hi",
+        "display": "hi"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

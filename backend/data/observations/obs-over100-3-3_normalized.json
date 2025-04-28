@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-over100-3-3",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "85354-9",
+      "display": "Presión arterial"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-over100-3"
+  },
+  "effectiveDateTime": "2023-07-29T19:00:43",
+  "valueQuantity": {
+    "value": 124.8,
+    "unit": "mmHg"
+  }
+}

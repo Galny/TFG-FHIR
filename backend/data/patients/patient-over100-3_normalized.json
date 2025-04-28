@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-over100-3",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Hill",
+    "given": [ "Stephanie" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1922-02-24",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "1463 Sanchez Summit" ],
+    "city": "Russellshire",
+    "postalCode": "56612",
+    "country": "DE"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-ES",
+        "display": "Español (España)"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

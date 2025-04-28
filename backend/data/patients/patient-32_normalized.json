@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-32",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Lopez",
+    "given": [ "Sarah" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1950-05-11",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "22417 Angela Brook" ],
+    "city": "Brussels",
+    "postalCode": "82319",
+    "country": "BE"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "fr-BE",
+        "display": "fr-BE"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

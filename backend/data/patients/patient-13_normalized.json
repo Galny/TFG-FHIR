@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-13",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Cameron",
+    "given": [ "Eric" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1987-01-21",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "948 Cohen Bypass Apt. 183" ],
+    "city": "Madrid",
+    "postalCode": "04582",
+    "country": "ES"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "W",
+      "display": "Viudo"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-ES",
+        "display": "es-ES"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

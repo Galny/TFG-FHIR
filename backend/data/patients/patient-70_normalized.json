@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-70",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Foley",
+    "given": [ "Jeremy" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1939-09-12",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "04834 Smith Pass" ],
+    "city": "Tokyo",
+    "postalCode": "77143",
+    "country": "JP"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "ja",
+        "display": "ja"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

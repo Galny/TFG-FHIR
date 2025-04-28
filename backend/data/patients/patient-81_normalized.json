@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-81",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Murray",
+    "given": [ "William" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1969-07-15",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "1530 Anita Springs" ],
+    "city": "Cape Town",
+    "postalCode": "00580",
+    "country": "ZA"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-ZA",
+        "display": "en-ZA"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-72",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Mathis",
+    "given": [ "Daniel" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1941-08-27",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "088 Bonnie Circles" ],
+    "city": "São Paulo",
+    "postalCode": "81811",
+    "country": "BR"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "pt-BR",
+        "display": "pt-BR"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

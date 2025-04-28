@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-58",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Anderson",
+    "given": [ "Ralph" ]
+  } ],
+  "gender": "unknown",
+  "birthDate": "1957-09-23",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "977 Marshall Mews" ],
+    "city": "Toronto",
+    "postalCode": "75593",
+    "country": "CA"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-CA",
+        "display": "en-CA"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

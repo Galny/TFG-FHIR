@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-54",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Williams",
+    "given": [ "Paul" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1950-07-20",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "9527 Timothy Keys Suite 516" ],
+    "city": "Amsterdam",
+    "postalCode": "33616",
+    "country": "NL"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "nl-NL",
+        "display": "nl-NL"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

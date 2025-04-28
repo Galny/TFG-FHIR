@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-94",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Harrison",
+    "given": [ "Leslie" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1988-03-15",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "1678 Joseph Keys Apt. 542" ],
+    "city": "Brussels",
+    "postalCode": "29887",
+    "country": "BE"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "fr-BE",
+        "display": "fr-BE"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

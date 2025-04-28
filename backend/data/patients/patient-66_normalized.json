@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-66",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Caldwell",
+    "given": [ "Anthony" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1973-04-21",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "277 Schultz Corners Suite 731" ],
+    "city": "Cape Town",
+    "postalCode": "53461",
+    "country": "ZA"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "en-ZA",
+        "display": "en-ZA"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

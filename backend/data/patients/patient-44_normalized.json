@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-44",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Ross",
+    "given": [ "Ashley" ]
+  } ],
+  "gender": "male",
+  "birthDate": "2008-04-17",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "33945 Brown Forest" ],
+    "city": "Paris",
+    "postalCode": "07704",
+    "country": "FR"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "fr-FR",
+        "display": "fr-FR"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

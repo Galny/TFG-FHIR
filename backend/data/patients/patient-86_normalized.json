@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-86",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Lee",
+    "given": [ "Brent" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1951-08-09",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "1528 Heather Village Suite 387" ],
+    "city": "Ciudad de México",
+    "postalCode": "35399",
+    "country": "MX"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "S",
+      "display": "Soltero"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-MX",
+        "display": "es-MX"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

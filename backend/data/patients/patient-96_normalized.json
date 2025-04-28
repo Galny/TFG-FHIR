@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-96",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Lopez",
+    "given": [ "Ashlee" ]
+  } ],
+  "gender": "female",
+  "birthDate": "2009-02-11",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "199 Amanda Islands" ],
+    "city": "Madrid",
+    "postalCode": "78388",
+    "country": "ES"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-ES",
+        "display": "es-ES"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

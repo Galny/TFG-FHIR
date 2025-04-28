@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-91",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Harris",
+    "given": [ "Aaron" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1967-03-02",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "8977 Ochoa Mount Apt. 289" ],
+    "city": "Paris",
+    "postalCode": "20751",
+    "country": "FR"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "W",
+      "display": "Viudo"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "fr-FR",
+        "display": "fr-FR"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

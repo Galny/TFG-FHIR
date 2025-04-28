@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-28",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Martinez",
+    "given": [ "Dillon" ]
+  } ],
+  "gender": "male",
+  "birthDate": "2008-04-30",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "947 Watts Falls" ],
+    "city": "Rome",
+    "postalCode": "81089",
+    "country": "IT"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "it-IT",
+        "display": "it-IT"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-50-0",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "8310-5",
+      "display": "Temperatura corporal"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-50"
+  },
+  "effectiveDateTime": "2021-03-17T03:29:01",
+  "valueQuantity": {
+    "value": 37.6,
+    "unit": "°C"
+  }
+}

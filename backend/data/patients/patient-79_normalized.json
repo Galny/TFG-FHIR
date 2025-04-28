@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-79",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Guerra",
+    "given": [ "Julian" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1946-08-21",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "1191 Fernandez Place Apt. 785" ],
+    "city": "Beijing",
+    "postalCode": "02691",
+    "country": "CN"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "D",
+      "display": "Divorciado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "zh-CN",
+        "display": "zh-CN"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

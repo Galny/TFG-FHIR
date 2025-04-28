@@ -1,0 +1,27 @@
+{
+  "resourceType": "Observation",
+  "id": "obs-22-2",
+  "status": "final",
+  "category": [ {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code": "vital-signs",
+      "display": "Signos vitales"
+    } ]
+  } ],
+  "code": {
+    "coding": [ {
+      "system": "http://loinc.org",
+      "code": "85354-9",
+      "display": "Presión arterial"
+    } ]
+  },
+  "subject": {
+    "reference": "Patient/patient-22"
+  },
+  "effectiveDateTime": "2024-03-28T15:26:43",
+  "valueQuantity": {
+    "value": 135.4,
+    "unit": "mmHg"
+  }
+}

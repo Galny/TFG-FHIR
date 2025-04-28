@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-87",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Davis",
+    "given": [ "Kenneth" ]
+  } ],
+  "gender": "male",
+  "birthDate": "1992-12-21",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "6442 Johnson Mission" ],
+    "city": "Ciudad de México",
+    "postalCode": "50441",
+    "country": "MX"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "M",
+      "display": "Casado"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "es-MX",
+        "display": "es-MX"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-77",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Vargas",
+    "given": [ "Ashley" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1993-06-13",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "207 Williams Underpass" ],
+    "city": "Beijing",
+    "postalCode": "76224",
+    "country": "CN"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "W",
+      "display": "Viudo"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "zh-CN",
+        "display": "zh-CN"
+      } ]
+    },
+    "preferred": true
+  } ]
+}

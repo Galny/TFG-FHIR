@@ -1,0 +1,38 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-100",
+  "active": true,
+  "name": [ {
+    "use": "official",
+    "family": "Kelley",
+    "given": [ "Jennifer" ]
+  } ],
+  "gender": "female",
+  "birthDate": "1976-02-04",
+  "deceasedBoolean": false,
+  "address": [ {
+    "use": "home",
+    "line": [ "73504 Bradley Islands Suite 976" ],
+    "city": "Amsterdam",
+    "postalCode": "84736",
+    "country": "NL"
+  } ],
+  "maritalStatus": {
+    "coding": [ {
+      "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code": "W",
+      "display": "Viudo"
+    } ]
+  },
+  "multipleBirthBoolean": false,
+  "communication": [ {
+    "language": {
+      "coding": [ {
+        "system": "urn:ietf:bcp:47",
+        "code": "nl-NL",
+        "display": "nl-NL"
+      } ]
+    },
+    "preferred": true
+  } ]
+}
