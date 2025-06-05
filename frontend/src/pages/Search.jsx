@@ -3,6 +3,7 @@ import { Table, Typography, Tag, message } from "antd";
 import SearchForm from "../components/SearchForm";
 import PatientObservationDrawer from "../components/PatientObservationDrawer";
 import PatientTable from "../components/PatientTable";
+import API_BASE_URL from "../config";
 
 const { Title } = Typography;
 
@@ -21,7 +22,7 @@ function Search() {
 
   const fetchPatients = () => {
     setLoading(true);
-    fetch("http://localhost:8080/patients")
+    fetch(`${API_BASE_URL}/patients`)
       .then((res) => res.json())
       .then((data) => {
         setAllPatients(data);

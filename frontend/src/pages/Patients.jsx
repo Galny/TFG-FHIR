@@ -10,6 +10,7 @@ import {
 import { UploadOutlined } from "@ant-design/icons";
 import PatientObservationDrawer from "../components/PatientObservationDrawer";
 import PatientTable from "../components/PatientTable";
+import API_BASE_URL from "../config";
 
 const { Title } = Typography;
 
@@ -22,7 +23,7 @@ function Patients() {
 
     const fetchPatients = () => {
         setLoading(true);
-        fetch("http://localhost:8080/patients")
+        fetch(`${API_BASE_URL}/patients`)
             .then((res) => res.json())
             .then((data) => {
                 setPatients(data);
@@ -44,7 +45,7 @@ function Patients() {
         formData.append("file", file);
 
         try {
-            const response = await fetch("http://localhost:8080/patients/upload", {
+            const response = await fetch(`${API_BASE_URL}/patients/upload`, {
                 method: "POST",
                 body: formData,
             });

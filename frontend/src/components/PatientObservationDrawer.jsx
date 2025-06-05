@@ -9,14 +9,15 @@ import {
   Tag,
   Typography
 } from "antd";
-import { UploadOutlined, DownloadOutlined } from "@ant-design/icons";
+import { UploadOutlined } from "@ant-design/icons";
 
 import { normalizeLanguage } from "../utils/languageTranslations";
 import { countryTranslationsES } from "../utils/countryTranslationsES";
+import API_BASE_URL from "../config";
 
 const { Title } = Typography;
 
-const PatientObservationsDrawer = ({ open, onClose, patient }) => {
+const PatientObservationDrawer = ({ open, onClose, patient }) => {
   const [observations, setObservations] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -25,7 +26,7 @@ const PatientObservationsDrawer = ({ open, onClose, patient }) => {
 
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:8080/observations");
+      const response = await fetch(`${API_BASE_URL}/observations`);
       const data = await response.json();
       const filtered = data.filter((obs) =>
         obs.patient === `Patient/${patient.id}`
@@ -34,8 +35,9 @@ const PatientObservationsDrawer = ({ open, onClose, patient }) => {
       const processed = filtered.map((obs) => ({
         id: obs.id,
         code: obs.code,
+        category: obs.category, // 👈 ahora recogemos la categoría también
         value: obs.value,
-        date: obs.date !== "—" ? obs.date : null  // Aseguramos que "—" se transforma a null
+        date: obs.date !== "—" ? obs.date : null
       }));
 
       setObservations(processed);
@@ -58,7 +60,7 @@ const PatientObservationsDrawer = ({ open, onClose, patient }) => {
     formData.append("file", file);
 
     try {
-      const response = await fetch("http://localhost:8080/observations/upload", {
+      const response = await fetch(`${API_BASE_URL}/observations/upload`, {
         method: "POST",
         body: formData,
       });
@@ -79,17 +81,6 @@ const PatientObservationsDrawer = ({ open, onClose, patient }) => {
     }
   };
 
-  const handleDownload = () => {
-    const json = JSON.stringify(patient, null, 2);
-    const blob = new Blob([json], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const anchor = document.createElement("a");
-    anchor.href = url;
-    anchor.download = `Patient-${patient.id}.json`;
-    anchor.click();
-    URL.revokeObjectURL(url);
-  };
-
   const columns = [
     {
       title: "ID",
@@ -98,10 +89,16 @@ const PatientObservationsDrawer = ({ open, onClose, patient }) => {
       sorter: (a, b) => a.id.localeCompare(b.id),
     },
     {
-      title: "Código",
+      title: "Observación",
       dataIndex: "code",
       key: "code",
       sorter: (a, b) => a.code.localeCompare(b.code),
+    },
+    {
+      title: "Categoría",
+      dataIndex: "category",
+      key: "category",
+      sorter: (a, b) => (a.category || "").localeCompare(b.category || ""),
     },
     {
       title: "Valor",
@@ -123,9 +120,9 @@ const PatientObservationsDrawer = ({ open, onClose, patient }) => {
         return dateA - dateB;
       },
       render: (text) => {
-        if (!text) return "-";  // Si no hay fecha, muestra un guion
+        if (!text) return "-";
         const dateObj = new Date(text);
-        if (isNaN(dateObj)) return "-";  // Si es inválido, también "-"
+        if (isNaN(dateObj)) return "-";
 
         const day = String(dateObj.getDate()).padStart(2, "0");
         const month = String(dateObj.getMonth() + 1).padStart(2, "0");
@@ -136,7 +133,6 @@ const PatientObservationsDrawer = ({ open, onClose, patient }) => {
         return `${day}/${month}/${year} ${hours}:${minutes}`;
       }
     }
-
   ];
 
   return (
@@ -201,16 +197,10 @@ const PatientObservationsDrawer = ({ open, onClose, patient }) => {
             }}
             locale={{ emptyText: "El paciente no tiene observaciones" }}
           />
-
-          <div style={{ textAlign: "right", marginTop: "1rem" }}>
-            <Button icon={<DownloadOutlined />} onClick={handleDownload}>
-              Descargar JSON del paciente
-            </Button>
-          </div>
         </>
       )}
     </Drawer>
   );
 };
 
-export default PatientObservationsDrawer;
+export default PatientObservationDrawer;

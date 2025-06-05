@@ -74,12 +74,6 @@ const SearchForm = ({ onSearch }) => {
                         </Col>
 
                         <Col xs={24} sm={12} md={6}>
-                            <Form.Item name="phone" label="Teléfono">
-                                <Input placeholder="Teléfono del paciente" />
-                            </Form.Item>
-                        </Col>
-
-                        <Col xs={24} sm={12} md={6}>
                             <Form.Item name="maritalStatus" label="Estado civil">
                                 <Select placeholder="Selecciona un estado civil" allowClear>
                                     <Option value="Casad">Casado/a/e</Option>
@@ -104,7 +98,7 @@ const SearchForm = ({ onSearch }) => {
                         style={{ marginRight: 12, fontSize: 14 }}
                         onClick={() => setExpand(!expand)}
                     >
-                        {expand ? <UpOutlined /> : <DownOutlined />} {expand ? "Buscar menos" : "Buscar más"}
+                        {expand ? <UpOutlined /> : <DownOutlined />} {expand ? "Menos opciones" : "Más opciones"}
                     </a>
                     <Button type="primary" htmlType="submit" icon={<SearchOutlined />} style={{ marginRight: 8 }}>
                         Buscar

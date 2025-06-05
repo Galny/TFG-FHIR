@@ -184,6 +184,12 @@ public class ServiceFHIRData implements IServiceFHIRData {
 				: obs.getCode().hasCoding() ? obs.getCode().getCodingFirstRep().getDisplay() : "—";
 		map.put("code", code);
 
+		// Categoría
+		String category = obs.hasCategory() && !obs.getCategoryFirstRep().isEmpty()
+				? obs.getCategoryFirstRep().getCodingFirstRep().getDisplay()
+				: "—";
+		map.put("category", category);
+
 		// 🔥 Fecha en formato ISO correcto
 		String date = obs.hasEffectiveDateTimeType() ? obs.getEffectiveDateTimeType().getValueAsString() : "—";
 		map.put("date", date);

@@ -1,15 +1,11 @@
-FROM maven:3.8.5-openjdk-11 AS builder
+FROM openjdk:17-jdk-slim
 
-WORKDIR /app/
-COPY pom.xml .
-RUN mvn -e -B dependency:resolve
-COPY src ./src
-RUN mvn clean package -DskipTests
+WORKDIR /app
 
-FROM openjdk:11-jre-slim
+COPY target/backend-0.0.1-SNAPSHOT.jar app.jar
 
-COPY --from=builder /app/target/backend-0.0.1-SNAPSHOT.jar /app/app.jar
+COPY data/ ./data/
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "/app/app.jar"]
+ENTRYPOINT ["java", "-jar", "app.jar"]

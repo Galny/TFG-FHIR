@@ -24,6 +24,7 @@ import WorldMap from "../components/WorldMap";
 import countryTranslationsES from "../utils/countryTranslationsES";
 import countryTranslationsEN from "../utils/countryTranslationsEN";
 import { normalizeLanguage } from "../utils/languageTranslations";
+import API_BASE_URL from "../config";
 
 ChartJS.register(ArcElement,
   BarElement,
@@ -51,7 +52,7 @@ const Statistics = () => {
   const [topCountryN, setTopCountryN] = useState(5);
 
   useEffect(() => {
-    fetch("http://localhost:8080/patients")
+    fetch(`${API_BASE_URL}/patients`)
       .then(res => res.json())
       .then(data => setPatients(data))
       .catch(err => {

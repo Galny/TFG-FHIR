@@ -22,6 +22,8 @@ public class ServiceFHIRNormalizer implements IServiceFHIRNormalizer {
 	}
 
 	public String normalizeToR4(String json) {
+		
+		// 1. Intentar como R4
 		try {
 			org.hl7.fhir.r4.model.Resource r4 = (org.hl7.fhir.r4.model.Resource) ctxR4.newJsonParser()
 					.parseResource(json);
