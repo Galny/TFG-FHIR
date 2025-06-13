@@ -16,5 +16,5 @@ Aplicación web desarrollada para el Trabajo Fin de Grado que permite gestionar 
 
 ```bash
 docker-compose up --build
-
+```
 4. Acceder desde el navegador a http://localhost:3000
