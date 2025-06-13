@@ -4,9 +4,10 @@
 Aplicación web desarrollada para el Trabajo Fin de Grado que permite gestionar y visualizar recursos FHIR en formato JSON.
 
 ## Requisitos
-- Docker instalado
-- Docker Compose instalado
-
+- Java 11 o superior
+- Node.js 16 o superior
+- Docker Desktop instalado
+  
 ## Pasos para ejecutar el proyecto
 
 1. Clonar o descomprimir el proyecto en una carpeta local.
